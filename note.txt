@@ -1,0 +1,9 @@
+# 当前设置
+#1
+python TL1_testing4_tl.py --batch_size 8 --lr 1e-6
+10间距，观测到20为最小loss 0.018282
+#2
+python TL1_testing4_tl.py --batch_size 8 --eval_cycle 1 --lr 1e-7 
+1间距，观测到35ep都很稳定，loss大约在0.018左右
+！将30ep放到testing3_seteval中了，效果很不好
+我认为这是过拟合的表现
